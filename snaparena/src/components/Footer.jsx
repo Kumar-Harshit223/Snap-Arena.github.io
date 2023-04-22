@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="last">
-        <div>
+        <div className="cen">
           <h4 className="cen">KUMAR HARSHIT</h4>
           <div>
             <img className="abtpic" src="images/me.jpg" />
