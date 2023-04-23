@@ -56,7 +56,7 @@ const Gallery = () => {
               className="image-fluid1"
               src="images/potrait/po22.jpeg"
               height="300px"
-              width="400px"
+              width="200px"
             />
           </a>
         </div>
@@ -71,7 +71,7 @@ const Gallery = () => {
               className="image-fluid1"
               src="images/landscape/ls7.jpeg"
               height="300px"
-              width="400px"
+              width="200px"
             />
           </a>
         </div>
@@ -86,7 +86,7 @@ const Gallery = () => {
               className="image-fluid1"
               src="images/sports/spo22.jpeg"
               height="300px"
-              width="400px"
+              width="200px"
             />
           </a>
         </div>
@@ -101,7 +101,7 @@ const Gallery = () => {
               className="image-fluid1"
               src="images/event/e22.jpeg"
               height="300px"
-              width="400px"
+              width="200px"
             />
           </a>
         </div>
@@ -116,7 +116,7 @@ const Gallery = () => {
               className="image-fluid1"
               src="images/wildlife/wf22.jpeg"
               height="300px"
-              width="400px"
+              width="200px"
             />
           </a>
         </div>
@@ -131,7 +131,7 @@ const Gallery = () => {
               className="image-fluid1"
               src="images/archi/a22.jpeg"
               height="300px"
-              width="400px"
+              width="200px"
             />
           </a>
         </div>
@@ -314,7 +314,7 @@ const Gallery = () => {
         width="400px"
       />
     </div>
-    <div className="back2">
+    <div className="back">
       <img
         className="image-fluid3"
         id="spa"
@@ -429,7 +429,7 @@ const Gallery = () => {
         width="400px"
       />
     </div>
-    <div className="back3">
+    <div className="back">
       <img
         className="image-fluid3"
         id="spa"

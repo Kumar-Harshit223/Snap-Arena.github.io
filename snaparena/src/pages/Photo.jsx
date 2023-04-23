@@ -93,6 +93,7 @@ const Photo = () => {
   </div>
   <div className="final-process">
     <h2>The Process</h2>
+    <div className='connect'>
     <div className="blck">
       <h5>
         01
@@ -165,6 +166,8 @@ const Photo = () => {
         your images are enjoyed for years to come!
       </p>
     </div>
+    </div>
+    
   </div>
 </div>
 

@@ -115,6 +115,13 @@ body{
 }
 .final-process{
     padding-bottom: 40px;
+    
+    
+}
+.connect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .blck h5{
     letter-spacing: 2px;
