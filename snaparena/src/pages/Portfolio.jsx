@@ -1,8 +1,24 @@
-import React from "react";
+import React,{useEffect} from "react";
 // import "../styles/port.css";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
+
+  useEffect(() => {
+    // Add the link element for the CSS file to the head of the document
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'styles/port.css';
+    document.head.appendChild(link);
+
+    console.log(link);
+
+    // Define the cleanup function to remove the link element from the head of the document
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
+
   return (
     <>
       <div className="main">
