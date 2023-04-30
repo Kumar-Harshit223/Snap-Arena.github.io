@@ -11,8 +11,6 @@ const Portfolio = () => {
     link.href = 'styles/port.css';
     document.head.appendChild(link);
 
-    console.log(link);
-
     // Define the cleanup function to remove the link element from the head of the document
     return () => {
       document.head.removeChild(link);
