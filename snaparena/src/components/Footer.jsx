@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="cen">
           <h4 className="cen">KUMAR HARSHIT</h4>
           <div>
-            <img className="abtpic" src="images/me.jpg" />
+            <img className="abtpic mx-auto" src="images/me.jpg" />
           </div>
         </div>
         <Link to="/contact">
